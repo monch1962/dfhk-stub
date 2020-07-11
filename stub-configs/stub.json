@@ -16,7 +16,7 @@
         } ]
       },
       "response" : {
-        "body": "{\"this\": \"body\"}",
+        "body": "{\"that\": \"other body\"}",
         "status" : 200,
         "headers" : {},
         "templated" : false,
