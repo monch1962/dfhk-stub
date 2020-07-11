@@ -17,7 +17,7 @@
       },
       "response" : {
         "body": "{
-          "this": "body"
+          \"this\": \"body\"
         }",
         "status" : 200,
         "headers" : {},
