@@ -1,0 +1,63 @@
+{
+  "data" : {
+    "pairs" : [ {
+      "request" : {
+        "body" : [ {
+          "value" : "",
+          "matcher" : "exact"
+        } ],
+        "path" : [ {
+          "value" : "/bar",
+          "matcher" : "exact"
+        } ],
+        "method" : [ {
+          "value" : "GET",
+          "matcher" : "exact"
+        } ]
+      },
+      "response" : {
+        "body": "{
+          "this": "body"
+        },
+        "status" : 200,
+        "headers" : {
+          "Via" : [ "1.1 varnish" ],
+          "Date" : [ "Fri, 08 Feb 2019 10:30:55 GMT" ],
+          "Etag" : [ "\"7e4c71b21f5b9bb2278c6f64285f1e2670c852bf\"" ],
+          "Vary" : [ "Authorization,Accept-Encoding" ],
+          "Expires" : [ "Fri, 08 Feb 2019 10:35:55 GMT" ],         "X-Cache" : [ "MISS" ],
+          "X-Timer" : [ "S1549621855.035091,VS0,VE289" ],
+          "Hoverfly" : [ "Was-Here" ],
+          "Connection" : [ "keep-alive" ],
+          "Source-Age" : [ "0" ],
+          "X-Served-By" : [ "cache-cdg20730-CDG" ],
+          "Content-Type" : [ "text/plain; charset=utf-8" ],
+          "X-Cache-Hits" : [ "0" ],
+          "Accept-Ranges" : [ "bytes" ],
+          "Cache-Control" : [ "max-age=300" ],
+          "X-Frame-Options" : [ "deny" ],
+          "X-Geo-Block-List" : [ "" ],
+          "X-Xss-Protection" : [ "1; mode=block" ],
+          "Transfer-Encoding" : [ "chunked" ],
+          "X-Fastly-Request-Id" : [ "36f44973dcb22b113cf21a9de51b5a1aaa75f54a" ],
+          "X-Github-Request-Id" : [ "B7F0:562C:1C9B07:1F143D:5C5D5A5D" ],
+          "X-Content-Type-Options" : [ "nosniff" ],
+          "Content-Security-Policy" : [ "default-src 'none'; style-src 'unsafe-inline'; sandbox" ],
+          "Strict-Transport-Security" : [ "max-age=31536000" ],
+          "Access-Control-Allow-Origin" : [ "*" ]
+        },
+        "templated" : false,
+        "encodedBody" : false
+      }
+    } ],
+    "globalActions" : {
+      "delays" : [ ],
+      "delaysLogNormal" : [ ]
+    }
+  },
+  "meta" : {
+    "timeExported" : "2019-02-08T10:31:04Z",
+    "schemaVersion" : "v5",
+    "hoverflyVersion" : "v1.0.0-rc.1"
+  }
+}
