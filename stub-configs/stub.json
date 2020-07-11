@@ -16,7 +16,7 @@
         } ]
       },
       "response" : {
-        "body": "{
+        "body": {
           "this": "body"
         },
         "status" : 200,
