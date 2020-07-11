@@ -16,9 +16,9 @@
         } ]
       },
       "response" : {
-        "body": {
+        "body": "{
           "this": "body"
-        },
+        }",
         "status" : 200,
         "headers" : {},
         "templated" : false,
